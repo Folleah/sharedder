@@ -1,0 +1,25 @@
+{
+    "name": "foll/sharedder",
+    "description": "Native PHP shared memory abstraction layer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Андрей Волков",
+            "email": "folleah5@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "Folleah\\Sharedder\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    }
+}
